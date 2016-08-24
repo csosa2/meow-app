@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="MeowApp">
 	<head>
 		<!-- The 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta charset="utf-8"/>
@@ -19,4 +19,12 @@
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
 		<title>MeowApp v1.5.0</title>
+
+		<!--Angular JS Libraries-->
+		<?php $ANGULAR_VERSION = "1.5.8";?>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-messages.min.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-route.js"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-animate.js"></script>
+		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
 	</head>
