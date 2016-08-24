@@ -21,8 +21,6 @@
 		<!-- Our Custom CSS -->
 		<link rel="stylesheet" href="css/style.css" type="text/css">
 
-		<title>MeowApp v1.5.0</title>
-
 		<!--Angular JS Libraries-->
 		<?php $ANGULAR_VERSION = "1.5.8";?>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular.min.js"></script>
@@ -30,5 +28,16 @@
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-route.js"></script>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/<?php echo $ANGULAR_VERSION;?>/angular-animate.js"></script>
 		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
-	</head>
 
+
+		<!--load OUR Angular files-->
+		<script src="angular/meow-app.js"></script>
+		<script src="angular/route-config.js"></script>
+		<script src="angular/controllers/home-controller.js"></script>
+		<script src="angular/controllers/donate-controller.js"></script>
+		<script src="angular/controllers/signup-controller.js"></script>
+		<script src="angular/controllers/treats-controller.js"></script>
+
+
+		<title>MeowApp v1.5.0</title>
+	</head>
